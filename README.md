@@ -1,1 +1,1 @@
-The app allows to buy dog;
+The app allows to buy a dog;
