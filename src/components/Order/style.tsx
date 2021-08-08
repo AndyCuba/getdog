@@ -3,6 +3,7 @@ import InputMask from 'react-input-mask';
 import orderBackground from '../../images/orderBackground.jpg';
 import QRCodeBackground from '../../images/qrCode.svg';
 import orderExitButton from '../../images/orderExitButton.png';
+import disabledOrderExitButton from '../../images/disabledOrderExitButton.png';
 import checboxIcon from '../../images/checkboxIcon.svg';
 
 const translateIn = keyframes`
@@ -33,6 +34,20 @@ const OrderFrame = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    h1 {
+        padding: 193px 0 15px;
+        text-align: center;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        text-transform: uppercase;
+    }
+    h1 + p, p + p {
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        max-width: 284px;
+    }
     h2 {
         font-size: 26px;
         line-height: 30px;
@@ -53,6 +68,9 @@ const OrderExitButton = styled.button`
     cursor: pointer;
     &:active {
         transform: scale(0.95);
+    }
+    &:disabled {
+        background: url(${disabledOrderExitButton}) center/cover;
     }
 `;
 
@@ -119,6 +137,7 @@ const Keyboard = styled.div`
             width: 186px;
             font-weight: 500;
             font-size: 16px;
+            text-transform: uppercase;
         }
     }
 `;
@@ -168,9 +187,15 @@ const SubmitButton = styled.button`
     color: white;
     font-weight: 500;
     font-size: 16px;
-    transition: transform 0.1s ease-in-out; 
+    transition: transform 0.1s ease-in-out;
+    text-transform: uppercase;
     &:active {
         transform: scale(0.95);
+    }
+    &:disabled {
+        background-color: transparent;
+        color: #4E4E4E;
+        border-color: #4E4E4E;
     }
 `;
 

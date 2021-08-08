@@ -15,7 +15,7 @@ const Home = () => {
     return(
         <HomeWrapper>
             <HomeFrame>
-                <HomeButton onClick={handleClick}>ОК</HomeButton>
+                <HomeButton onClick={handleClick}>ок</HomeButton>
             </HomeFrame>
         </HomeWrapper>
     );

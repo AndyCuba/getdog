@@ -44,6 +44,7 @@ const HomeButton = styled.button`
     cursor: pointer;
     outline: none;
     border: 1px solid #4E4E4E;
+    text-transform: uppercase;
     &:hover {
         background-color: black;
         color: #86D3F4;
