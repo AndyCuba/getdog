@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.js": "/getdog/static/js/main.e5f19d1b.chunk.js",
+    "main.js.map": "/getdog/static/js/main.e5f19d1b.chunk.js.map",
+    "runtime-main.js": "/getdog/static/js/runtime-main.c9e715d2.js",
+    "runtime-main.js.map": "/getdog/static/js/runtime-main.c9e715d2.js.map",
+    "static/js/2.2c7d44c8.chunk.js": "/getdog/static/js/2.2c7d44c8.chunk.js",
+    "static/js/2.2c7d44c8.chunk.js.map": "/getdog/static/js/2.2c7d44c8.chunk.js.map",
+    "index.html": "/getdog/index.html",
+    "static/js/2.2c7d44c8.chunk.js.LICENSE.txt": "/getdog/static/js/2.2c7d44c8.chunk.js.LICENSE.txt",
+    "static/media/checkboxIcon.a4df113f.svg": "/getdog/static/media/checkboxIcon.a4df113f.svg",
+    "static/media/homeFrame.2df6179d.jpg": "/getdog/static/media/homeFrame.2df6179d.jpg",
+    "static/media/orderBackground.a928b781.jpg": "/getdog/static/media/orderBackground.a928b781.jpg",
+    "static/media/qrCode.9e795cc1.svg": "/getdog/static/media/qrCode.9e795cc1.svg",
+    "static/media/video.98957adf.jpg": "/getdog/static/media/video.98957adf.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c9e715d2.js",
+    "static/js/2.2c7d44c8.chunk.js",
+    "static/js/main.e5f19d1b.chunk.js"
+  ]
+}
